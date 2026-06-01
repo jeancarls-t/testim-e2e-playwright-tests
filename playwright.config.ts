@@ -5,8 +5,8 @@ export default defineConfig({
   timeout: 60000,
   expect: { timeout: 15000 },
   fullyParallel: false,
-  forbidOnly: false,  // Cambiar a false si no usas CI
-  retries: 0,        // Cambiar a 0 localmente
+  forbidOnly: false,
+  retries: 0,
   workers: 1,
   reporter: [
     ['html', { outputFolder: 'playwright-report' }],
@@ -18,7 +18,7 @@ export default defineConfig({
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    headless: false,  // Cambiar a false para ver el navegador
+    headless: true,  // Siempre en modo headless (recomendado para CI)
     actionTimeout: 30000,
     navigationTimeout: 60000,
   },
