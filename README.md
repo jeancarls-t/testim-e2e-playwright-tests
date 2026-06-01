@@ -123,7 +123,7 @@ Jean Carlos Caro N.
 QA Automation Engineer
 
 📄 Licencia
-Este proyecto fue desarrollado como prueba técnica para Puntos Colombia / SQA S.A.
+Este proyecto fue desarrollado como prueba técnica para PC / SQA.
 Uso exclusivamente académico y de evaluación.
 
 ![Reporte Playwright](./images/1.png)
